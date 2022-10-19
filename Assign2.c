@@ -85,7 +85,10 @@
 //     int num;
 //     printf("Enter a number:: ");
 //     scanf("%d",&num);
+//     Approach-1 using Bitwise AND opretor
 //     (num&1) ? printf("%d is an Odd number.",num) : printf("%d is a Even number.",num);
+//     Approach-2 using Modulo(%) opretor
+//     (num%2==0) ? printf("%d is a Even number.",num) : printf("%d is an Odd number.",num);
 //     return 0;
 // }
 
