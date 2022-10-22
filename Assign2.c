@@ -149,10 +149,13 @@
 // #include <stdio.h>
 // int main()
 // {
-//     int num;
-//     printf("Enter a three digit number:: ");
-//     scanf("%d",&num);
-//     num = num >> 1;
-//     printf("After one rotation towards right:: %d",num);
+//  int num;
+//  printf("Enter a three digit number:: ");
+//  scanf("%d",&num);
+//  int x = num%10;
+//  x = x * 100;
+//  num = num / 10;
+//  num = x + num;
+//  printf("Requied Num = %d",num);     
 //     return 0;
 // }
